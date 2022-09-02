@@ -50,7 +50,7 @@ const Card = ({ dataPkm, handleOpen }) => {
 				</PokeTypes>
 				{dataPkm.species.evolves_from_species !== null ? (
 					<EvolvesFrom>
-						Evoluciona de {dataPkm.species.evolves_from_species?.name}
+						Evolución de {dataPkm.species.evolves_from_species?.name}
 					</EvolvesFrom>
 				) : null}
 			</InfoBox>
